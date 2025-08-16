@@ -65,12 +65,13 @@ function App() {
   ];
 
   const razonesRechazo = [
-    "Demasiados candidatos destacados para pocas plazas disponibles.",
-    "El mercado laboral en Valencia es reducido comparado con Madrid.",
-    "Menor número de restaurantes disponibles en la ciudad.",
-    "Mayor competencia debido a menos oportunidades laborales.",
-    "La red de McDonald's en Valencia es más pequeña y con menor rotación de personal.",
+    "Actualmente hay una disponibilidad limitada de vacantes en la zona.",
+    "Alta demanda de candidatos frente a la capacidad actual de contratación.",
+    "No hay suficientes plazas abiertas en este momento en los restaurantes de la ciudad.",
+    "El proceso de selección ha sido muy competitivo con pocas posiciones disponibles.",
+    "Los establecimientos de la zona presentan un ritmo de contratación más reducido."
   ];
+  
 
   if (!isLoggedIn) {
     // Página de Login
